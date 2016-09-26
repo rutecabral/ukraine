@@ -5,8 +5,8 @@
 <item>
 <title>[COLOR red] [B]ADDON BY CAPUCINE[/B] [/COLOR] </title>
 <link>http://ignorame</link>
-<thumbnail>http://www.stillstoked.com/wp-content/uploads/2015/07/Kokoh-surf-bikini-surfer-girl.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<thumbnail>http://www.orbitaviagens.co.ao/wp-content/uploads/2015/01/torre_belem_lisboa_portugal_bandeira_Reuters.jpg</thumbnail>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -15,7 +15,7 @@
 <title>[COLOR blue] [B]PORTUGUESES SD[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://4.bp.blogspot.com/_0fDHkkcFi6A/TLY9aK3rjJI/AAAAAAAAAAw/RHJt2nVyLnI/s400/Soccer+Girls+Jerseys+World+Cup+Body+Art+Paintings1.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -27,7 +27,7 @@
 <title>[COLOR blue] [B]DESPORTO PT E MUNDO SD[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://www.safefood.eu/SafeFood/media/SafeFoodLibrary/Documents/Publications/Consumer/Fuel-for-Sport.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -56,7 +56,7 @@
 <Agent>Mozilla</Agent>
 </regex>
 <thumbnail>http://i.imgur.com/LIwx17Z.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -64,7 +64,7 @@
 <title>[COLOR blue] [B] CANAIS SOAPCAST [/B] [/COLOR]</title>
 <link>http://ignorame</link>
 <thumbnail>http://114.imagebam.com/download/wYDEfUIgvDn1f92UVzKVcw/47632/476312766/sopcast.png</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -79,7 +79,7 @@
  <title>[COLOR red]SPECIAL-ONE[/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
  <link>$doregex[makelist]</link>
  <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
- <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ <fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
 <page>http://pastebin.com/raw/dmQwSkFw</page>
@@ -98,7 +98,7 @@
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -113,7 +113,7 @@
  <title>[COLOR red]SPECIAL-ONE TV[/COLOR][COLOR blue ][makelist2.param1][/COLOR]</title>
  <link>$doregex[makelist]</link>
  <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
- <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ <fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
 <page></page>
@@ -126,14 +126,14 @@
  <title>[COLOR blue]SPECIAL-ONE TV[COLOR blue][makelist.param1][/COLOR]</title>
  <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] SPECIAL ONE TV[/COLOR] [makelist.param1]</link>
  <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
- <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ <fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
  ]]></listrepeat>
 <expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
 <page>[makelist2.param2]</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
- <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ <fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -141,7 +141,7 @@
 <title>[COLOR blue][B]BRASIL TV [/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://i2.fuskator.com/large/b3tOINnoL2G/image-2.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink>http://pastebin.com/raw/ymYRYPYQ</externallink>
 </item>
 
@@ -153,7 +153,7 @@
 <title>[COLOR blue][B]SPAIN CHANNELS [/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://1.bp.blogspot.com/-j4Mf7-shc5A/UbDH3OHRy0I/AAAAAAAAATk/DZsAKp53gDo/s1600/body-paint-004.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -163,7 +163,7 @@
 <title>[COLOR blue][B]CANALES AMERICA SUL[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://images.uncyc.org/pt/thumb/4/4f/Am%C3%A9rica_do_Sul.jpg/300px-Am%C3%A9rica_do_Sul.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink>http://adryanlist.org/adryan/paises.xml</externallink>
 </item>
 
@@ -177,7 +177,7 @@
 <link>http://ignorame</link>
 <externallink></externallink>
 <thumbnail>https://i.ytimg.com/vi/ldrLZtCgdEI/mqdefault.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -186,7 +186,7 @@
 <title>[COLOR blue] [B]FRANCE CHANNELS[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://4.bp.blogspot.com/-Lpkt7nnP97U/TtytYa91zUI/AAAAAAAA1Ws/2ke_NMgoYuE/s1600/france-01-painted-fantasy-football-girl.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -196,7 +196,7 @@
 <link>http://ignorame</link>
 <externallink></externallink>
 <thumbnail>https://www.boomfestival.org/boom2016/site/assets/files/1092/bf2014_pierre_ekman-0244.950x450.jpg</thumbnail>
-<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -206,7 +206,7 @@
 <title>[COLOR red] [B]MELHORES ADDONS TUGAS EM BAIXO[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -215,6 +215,7 @@
 <title>[COLOR lawngreen][B]LOGIN PT[/B][/COLOR]</title>
 <link>_</link>
 <thumbnail>http://vitor1983.netai.net/loganaddon.repository/icon.png</thumbnail>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink>https://www.dropbox.com/s/u12vbu1vps54mak/logan-Menu-Principal.xml?dl=1</externallink>
 </item>
 
@@ -222,11 +223,11 @@
 
 
 <item>  
-<title>[COLOR lawngreen][B]DIRETO TV PT[/B][/COLOR]</title>
+<title>[COLOR lawngreen][B]DIRECT TV PT[/B][/COLOR]</title>
 <link>http://ignorame</link>
 <externallink>http://livetvbytvdireto.blogspot.ca/p/color-red-bhttppaypal_28.html</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -234,7 +235,7 @@
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/9fzvl7k4htxdb8x/lista.xml?dl=1</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -242,7 +243,7 @@
 <link>http://ignorame</link>
 <externallink>http://psycho.pe.hu/addonPsycho/submenu.txt</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -250,7 +251,7 @@
 <link>http://ignorame</link>
 <externallink>https://raw.githubusercontent.com/JN1974/enfim/master/Addon_plugin</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -258,7 +259,7 @@
 <link>http://ignorame</link>
 <externallink>https://www.dropbox.com/s/j24dir6nnb9pus9/menus.xml?dl=1</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -269,7 +270,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/W2zn4txu</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -277,7 +278,7 @@
 <link>http://ignorame</link>
 <externallink>http://teamtuga4ever.net23.net/TV%20SUPER%20TUGA%20ADD%20ESTRUTURA%201/Menu%20Principal.xml</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item> 
@@ -285,7 +286,7 @@
 <link>http://ignorame</link>
 <externallink>https://raw.githubusercontent.com/Teamblue1965/MENUS/master/MENU_PRINCIPAL</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>
@@ -293,7 +294,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/K2X65rB3</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -303,7 +304,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/9vT1sJap</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -313,7 +314,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/Hd6cxJBU</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -322,14 +323,14 @@
 <link>http://ignorame</link>
 <externallink>https://livetvbytvdireto.blogspot.pt/p/soamoviesmain.html</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>
 <title>[COLOR red] [B]MELHORES ADDONS BRASIL EM BAIXO[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
-<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 <externallink></externallink>
 </item>
 
@@ -340,6 +341,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/7Sjg7MmZ</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
@@ -348,6 +350,7 @@
 <link>http://ignorame</link>
 <externallink>http://pastebin.com/raw/TBmjL0u8</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 <item>  
@@ -355,6 +358,7 @@
 <link>http://ignorame</link>
 <externallink>http://j.mp/igorlista</externallink>
 <thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
 </item>
 
 
