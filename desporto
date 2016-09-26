@@ -283,7 +283,7 @@
 
 <item>
 <title>[COLOR white][B]SPORT TV 5 [/COLOR][/B]</title>
-<link>$doregex[select_Url]</link>
+<link$doregex[select_Url]</link>
 <regex>
 <name>select_Url</name>
 <expres>$pyFunction: '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36' if not '$doregex[get_sxstream]|User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'=='' else '$doregex[get_sxstream1]|User-Agent=iPhone'</expres>
@@ -305,6 +305,11 @@
 </regex>
 <thumbnail>http://s20.postimg.org/c6jb79kjh/sporttv5.png</thumbnail>
 </item>
+
+<title>[COLOR white][B]SPORT TV 5[/COLOR][/B]</title>
+<sportsdevil>http://www.liveonlinetv247.info/embed/sporttv5.php?width=650&amp;height=480</sportsdevil>
+<referer>http://www.liveonlinetv247.info/embed/sporttv5.php?width=650&amp;height=480</referer>
+
 
 <item>
 <title>[COLOR white][B]SPORT TV 5 [/COLOR][/B]</title
