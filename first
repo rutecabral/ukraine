@@ -116,7 +116,7 @@
  <fanart>http://www.jamesborrell.com/wp-content/uploads/2014/10/world-maps-informational-7.jpg</fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
-<page></page>
+<page>https://raw.githubusercontent.com/rutecabral/ukraine/master/servidores%20web</page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
