@@ -308,7 +308,7 @@
 
 
 <item>
-<title>[COLOR white][B]SPORT TV 5[/COLOR][/B]</title>
+<title>[COLOR white][B] SPORT TV 5 [/COLOR][/B]</title>
 <sportsdevil>http://www.liveonlinetv247.info/embed/sporttv5.php?width=650&amp;height=480</sportsdevil>
 <referer>http://www.liveonlinetv247.info/embed/sporttv5.php?width=650&amp;height=480</referer>
 </item>
@@ -775,7 +775,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]BOXING & WRESTLING [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dBoxing%20%26%20wrestling%5b%2fCOLOR%5d&amp;url=Boxing%20%26%20Wrestling</jsonrpc>
-<thumbnail>https://cld.pt/dl/download/add63e9f-83bd-4825-bd5a-679954f46490/boxing.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -791,7 +791,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]TEN SPORTS [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=71&amp;name=%5bCOLOR%20red%5dTen%20sports%5b%2fCOLOR%5d&amp;url=TEN%20Sports</jsonrpc>
-<thumbnail>https://cld.pt/dl/download/8c1dfb85-5805-4baf-81f3-fd1eef25d77a/tensports.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
@@ -807,7 +807,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]TSN SPORTS [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=70&amp;name=%5bCOLOR%20red%5dTsn%20sports%5b%2fCOLOR%5d&amp;url=TSN%20Sports</jsonrpc>
-<thumbnail>https://cld.pt/dl/download/aeb376fc-e5a1-43e6-b81a-db688e9a3a81/tsn.png</thumbnail>
+<thumbnail></thumbnail>
 </item>
 
 
