@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[COLOR blue][COLOR blue]Ir A: http://arenavision.in/agenda Ver canais On  [/COLOR] [COLOR yellow][/COLOR]</title>
+<link></link>
+<thumbnail></thumbnail>              
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S1[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262490&mode=2&amp;mode=2&amp;name=ARENAVISION S1/SOPCAST</link>
+<thumbnail></thumbnail>               
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S2[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262491&mode=2&amp;mode=2&amp;name=ARENAVISION S2/SOPCAST</link>
+<thumbnail></thumbnail>                 
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S3[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262492&mode=2&amp;mode=2&amp;name=ARENAVISION S3/SOPCAST</link>
+<thumbnail></thumbnail>             
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S4[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262493&mode=2&amp;mode=2&amp;name=ARENAVISION S4/SOPCAST</link>
+<thumbnail></thumbnail>               
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S5[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262494&mode=2&amp;mode=2&amp;name=ARENAVISION S5/SOPCAST</link>
+<thumbnail></thumbnail>              
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S6[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262495&mode=2&amp;mode=2&amp;name=ARENAVISION S6/SOPCAST</link>
+<thumbnail></thumbnail>              
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S7[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262496&mode=2&amp;mode=2&amp;name=ARENAVISION S7/SOPCAST</link>
+<thumbnail></thumbnail>              
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S8[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262497&mode=2&amp;mode=2&amp;name=ARENAVISION S8/SOPCAST</link>
+<thumbnail></thumbnail>              
+</item>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S9[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262498&mode=2&amp;mode=2&amp;name=ARENAVISION S9/SOPCAST</link>
+<thumbnail></thumbnail>
+
+<item>
+<title>[COLOR blue][COLOR blue]Arenavision S10[/COLOR] [COLOR yellow]SOPCAST[/COLOR]</title>
+<link>plugin://program.plexus/?url=sop://broker.sopcast.com:3912/262499&mode=2&amp;mode=2&amp;name=ARENAVISION S10/SOPCAST</link>
+<thumbnail></thumbnail>              
+</item>

@@ -1,1 +1,203 @@
-hello
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item>
+<title>[COLOR lawngreen] [B]ADDON BY SPECIAL ONE[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://www.stillstoked.com/wp-content/uploads/2015/07/Kokoh-surf-bikini-surfer-girl.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR blue] [B]PORTUGUESES SD[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://4.bp.blogspot.com/_0fDHkkcFi6A/TLY9aK3rjJI/AAAAAAAAAAw/RHJt2nVyLnI/s400/Soccer+Girls+Jerseys+World+Cup+Body+Art+Paintings1.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/portuguese</externallink>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR blue] [B]DESPORTO PT E MUNDO SD[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://www.safefood.eu/SafeFood/media/SafeFoodLibrary/Documents/Publications/Consumer/Fuel-for-Sport.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/desporto</externallink>
+</item>
+
+
+<item>
+<title>[COLOR blue] [B]ARENAVISION AGENDA / SCHEDULE [/B] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR lightyellow][makelist.param1][/COLOR] [COLOR lightblue][makelist.param2][/COLOR] [COLOR lightgreen][makelist.param4][/COLOR][COLOR skyblue] [makelist.param5][/COLOR] ([makelist.param6])  </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=SPECIAL ONE+[makelist.param3]+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/AV[makelist.param6]</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+			<thumbnail></thumbnail>
+</item>	
+]]></listrepeat>
+<expres>190px">(.*?)<[\w\W\s]{0,45}182px">(.*?)<[\w\W\s]{0,45}188px">(.*?)<[\w\W\s]{0,45}283px">(.*?)<[\w\W\s]{0,45}685px">(.*?)<[\w\W\s]{0,80}317px">([0-9]+)</expres>
+<page>http://arenavision.in/agenda</page>
+<Agent>Mozilla</Agent>
+</regex>
+<thumbnail>http://i.imgur.com/LIwx17Z.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR blue] [B] CANAIS SOAPCAST [/B] [/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>http://114.imagebam.com/download/wYDEfUIgvDn1f92UVzKVcw/47632/476312766/sopcast.png</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/soapcast</externallink>
+</item>
+
+
+<item>
+<title>[COLOR blue] [B] LISTAS IPTV 1 PT UK ES DE IT FR [/B] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]SPECIAL-ONE[/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
+ <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>http://pastebin.com/raw/dmQwSkFw</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR blue]King TV[COLOR orange][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] SPECIAL-ONE TV[/COLOR] [makelist.param1]</link>
+ <thumbnail>http://www.delrey.com.sv/wp-content/uploads/2014/05/del-rey-logo1.png</thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR blue] [B] LISTAS IPTV 2 PT UK ES DE IT FR [/B] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]SPECIAL-ONE TV[/COLOR][COLOR blue ][makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
+ <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/specialoneaddon/tv/master/servidores%20web</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR blue]SPECIAL-ONE TV[COLOR blue][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] SPECIAL ONE TV[/COLOR] [makelist.param1]</link>
+ <thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
+ <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>http://comzad.com/wp-content/uploads/2016/08/Iptv.jpg</thumbnail>
+ <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR blue][B]BRASIL TV [/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://i2.fuskator.com/large/b3tOINnoL2G/image-2.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>http://pastebin.com/raw/ymYRYPYQ</externallink>
+</item>
+
+
+http://pastebin.com/raw/ymYRYPYQ
+
+
+
+<item>
+<title>[COLOR blue][B]SPAIN CHANNELS [/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://1.bp.blogspot.com/-j4Mf7-shc5A/UbDH3OHRy0I/AAAAAAAAATk/DZsAKp53gDo/s1600/body-paint-004.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/spain</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR blue][B]CANALES AMERICA SUL[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://images.uncyc.org/pt/thumb/4/4f/Am%C3%A9rica_do_Sul.jpg/300px-Am%C3%A9rica_do_Sul.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>http://adryanlist.org/adryan/paises.xml</externallink>
+</item>
+
+
+
+
+
+
+<item>  
+<title>[COLOR blue][B]UK CHANNELS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/uk</externallink>
+<thumbnail>https://i.ytimg.com/vi/ldrLZtCgdEI/mqdefault.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR blue] [B]FRANCE CHANNELS[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://4.bp.blogspot.com/-Lpkt7nnP97U/TtytYa91zUI/AAAAAAAA1Ws/2ke_NMgoYuE/s1600/france-01-painted-fantasy-football-girl.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+<externallink>http://www.surfertoday.com/images/stories/surfetiquette.jpg</externallink>
+</item>
+
+
+<item>  
+<title>[COLOR blue][B]MUSIC CHANNELS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/musica</externallink>
+<thumbnail>https://www.boomfestival.org/boom2016/site/assets/files/1092/bf2014_pierre_ekman-0244.950x450.jpg</thumbnail>
+<fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
+</item>
+
+

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
+<item>
+<title>[COLOR red] [B]SUPER ADDON BY CAPUCINE[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen] [B]PORTUGUESES[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://4.bp.blogspot.com/-BMyCsibtcAI/U0SW523TyQI/AAAAAAAAQAE/tiYh2kTG-yE/s1600/Tuga_Troll.png</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/tu1</externallink>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR lawngreen] [B]DESPORTO PT E MUNDO[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://www.marcoensefm.com/wp-content/uploads/2013/06/Logo-Desporto.jpg</thumbnail>
+<fanart>http://orig09.deviantart.net/69f7/f/2015/257/d/f/champions_league_wallpaper_2015_by_jafarjeef-d99l62c.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/de1</externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen] [B]ARENAVISION AGENDA / SCHEDULE [/B] [/COLOR] </title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<item><title>[COLOR lightyellow][makelist.param1][/COLOR] [COLOR lightblue][makelist.param2][/COLOR] [COLOR lightgreen][makelist.param4][/COLOR][COLOR skyblue] [makelist.param5][/COLOR] ([makelist.param6])  </title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=MACLINE+[makelist.param3]+Arenavision</link>
+			<regex>
+			<name>hash</name> 
+			<expres>this.loadPlayer\("(.*?)"</expres>
+			<page>http://www.arenavision.in/AV[makelist.param6]</page>
+			<referer>http://www.arenavision.in</referer>
+			<setcookie>beget=begetok</setcookie>
+			</regex>
+			<thumbnail></thumbnail>
+</item>	
+]]></listrepeat>
+<expres>190px">(.*?)<[\w\W\s]{0,45}182px">(.*?)<[\w\W\s]{0,45}188px">(.*?)<[\w\W\s]{0,45}283px">(.*?)<[\w\W\s]{0,45}685px">(.*?)<[\w\W\s]{0,80}317px">([0-9]+)</expres>
+<page>http://arenavision.in/agenda</page>
+<Agent>Mozilla</Agent>
+</regex><thumbnail></thumbnail>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen] [B] CANAIS SOAPCAST [/B] [/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>http://114.imagebam.com/download/wYDEfUIgvDn1f92UVzKVcw/47632/476312766/sopcast.png</thumbnail>
+<fanart>http://113.imagebam.com/download/fdM83GTZTSo8CpqNLXND5g/46519/465185244/ike.png</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/soapcast</externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen] [B] LISTAS IPTV PT UK ES DE IT FR [/B] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]King TV..[/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>http://pastebin.com/raw/dmQwSkFw</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR blue]King TV[COLOR orange][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] King TV[/COLOR] [makelist.param1]</link>
+ <thumbnail>http://www.delrey.com.sv/wp-content/uploads/2014/05/del-rey-logo1.png</thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail>http://www.delrey.com.sv/wp-content/uploads/2014/05/del-rey-logo1.png</thumbnail>
+</item>
+
+
+
+<item>
+<title>[COLOR lawngreen] [B] LISTAS IPTV PT [/B] [/COLOR] </title>
+<link>$doregex[makelist2]</link>
+
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+ <title>[COLOR red]CAPUCINE TV[/COLOR][COLOR orange ][makelist2.param1][/COLOR]</title>
+ <link>$doregex[makelist]</link>
+ <thumbnail></thumbnail>
+ <fanart></fanart>
+ ]]></listrepeat>
+<expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
+<page>https://raw.githubusercontent.com/nikasnikas/bosnia/master/servidores%20web</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+ <title>[COLOR blue]CAPUCINE TV[COLOR orange][makelist.param1][/COLOR]</title>
+ <link>plugin://plugin.video.f4mTester/?url=[makelist.param2]&amp;streamtype=TSDOWNLOADER&amp;maxbitrate=0&amp;proxy=None&amp;name=[COLOR blue] CAPUCINE TV[/COLOR] [makelist.param1]</link>
+ <thumbnail></thumbnail>
+ ]]></listrepeat>
+<expres>#EXTINF:-1,[makelist2.param3](.*?)\n(.*)</expres>
+<page>[makelist2.param2]</page>
+<agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
+</regex>
+<thumbnail></thumbnail>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR lawngreen] [B]DESENHOS ANIMADOS[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://ccaa2013.s3.amazonaws.com/ccaa2014/canalccaa/wp-content/blogs.dir/3/files/2014/01/melhores-desenhos-animados.jpg</thumbnail>
+<fanart>https://lh6.googleusercontent.com/-QTQ9XwHBN7Q/VIYk-QCym0I/AAAAAAAAZeI/Fm63e8yJ_kM/s800/desenhos00.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/desani1</externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen][B]SPAIN CHANNELS [/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://s3.postimg.org/8ex9f3rwj/bandeira_espanha.png</thumbnail>
+<fanart>http://www.ctvnews.ca/polopoly_fs/1.994441.1413282156!/httpImage/image.jpeg_gen/derivatives/landscape_620/image.jpeg</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/spain%20o%20melhor</externallink>
+</item>
+
+
+
+<item>
+<title>[COLOR lawngreen][B]CANALES AMERICA SUL[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://www.ctvnews.ca/polopoly_fs/1.994441.1413282156!/httpImage/image.jpeg_gen/derivatives/landscape_620/image.jpeg</thumbnail>
+<fanart>http://www.ctvnews.ca/polopoly_fs/1.994441.1413282156!/httpImage/image.jpeg_gen/derivatives/landscape_620/image.jpeg</fanart>
+<externallink>http://adryanlist.org/adryan/paises.xml</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR lawngreen] [B]FRANCE CHANNELS[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://www.pieniadz.pl/archiwum/geografia/flagi_godla_itp/francja_flaga_1.jpg</thumbnail>
+<fanart>http://images.national-tours.fr/1-FRANCE-sejour-decouverte-1817.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/fr1</externallink>
+</item>
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]UK CHANNELS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/uk1</externallink>
+<thumbnail>http://traditionalmarket.co.uk/wp-content/uploads/2015/02/uk-flag.jpg</thumbnail>
+<fanart>http://cdni.wired.co.uk/620x413/k_n/london1.jpg</fanart>
+</item>
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]MUSIC CHANNELS[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/nikasnikas/bosnia/master/mus1</externallink>
+<thumbnail>https://lh3.googleusercontent.com/-HpLhw1Q8Wfk/AAAAAAAAAAI/AAAAAAAAAAA/8ASX4YLFUdc/photo.jpg</thumbnail>
+<fanart>https://lh3.googleusercontent.com/-HpLhw1Q8Wfk/AAAAAAAAAAI/AAAAAAAAAAA/8ASX4YLFUdc/photo.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red] [B]MELHORES ADDONS TUGAS EM BAIXO[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen][B]LOGADDN PT[/B][/COLOR]</title>
+<link>_</link>
+<thumbnail>http://vitor1983.netai.net/loganaddon.repository/icon.png</thumbnail>
+<externallink>https://www.dropbox.com/s/u12vbu1vps54mak/logan-Menu-Principal.xml?dl=1</externallink>
+</item>
+
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]LIVES TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://livetvbytvdireto.blogspot.ca/p/color-red-bhttppaypal_28.html</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]MALUCO PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/9fzvl7k4htxdb8x/lista.xml?dl=1</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]PSY TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://psycho.pe.hu/addonPsycho/submenu.txt</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]INSPIRACAO IPTV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/JN1974/enfim/master/Addon_plugin</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]BLACKPARTILHA PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/j24dir6nnb9pus9/menus.xml?dl=1</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]TVDEALGUNS PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/W2zn4txu</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]TV SUPER PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://teamtuga4ever.net23.net/TV%20SUPER%20TUGA%20ADD%20ESTRUTURA%201/Menu%20Principal.xml</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item> 
+<title>[COLOR lawngreen][B]TEAMAZUL PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Teamblue1965/MENUS/master/MENU_PRINCIPAL</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lawngreen][B]MARTINS PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/K2X65rB3</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+<item> 
+<title>[COLOR lawngreen][B]LULAFISH TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/9vT1sJap</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]TV ALGARVE PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/4GdrPHEX</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+
+<item> 
+<title>[COLOR lawngreen][B]TEAM F4M[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/Hd6cxJBU</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+<item>  
+<title>[COLOR lawngreen][B]PT - PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://lista.kodiportugal.com</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item> 
+<title>[COLOR lawngreen][B]CSOA MOVIES[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://livetvbytvdireto.blogspot.pt/p/soamoviesmain.html</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red] [B]MELHORES ADDONS BRASIL EM BAIXO[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]IPTV ON BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/7Sjg7MmZ</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+
+<item>  
+<title>[COLOR lawngreen][B]LISTA FUS BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/TBmjL0u8</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]LISTA IGOR BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://j.mp/igorlista</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+
