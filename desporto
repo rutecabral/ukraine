@@ -52,7 +52,7 @@
 </item>
 
 <item>
-<title>SPORT TV 1</title>
+<title>[COLOR white][B]SPORT TV 1[/COLOR][/B]</title>
 <link>$doregex[select_Url]</link>
 <regex>
 <name>select_Url</name>
@@ -78,7 +78,9 @@
 
 <item> 
 <title>[COLOR white][B]SPORT TV 1 [/COLOR][/B]</title>
-<sportsdevil>http://cdn2.zuuk.org/sporttv.php?width=599&height=399</sportsdevil>
+<sportsdevil>http://wizhdsports.to/live/stream20.php?width=650&height=480</sportsdevil>
+<referer>http://wizhdsports.to/live/stream20.php?width=650&height=480</referer>
+<sportsdevilhttp://cdn2.zuuk.org/sporttv.php?width=599&height=399</sportsdevil>
 <referer>http://cdn2.zuuk.org/</referer>
 <sportsdevilhttp://www.idimsports.eu/watch/408917/1/watch-xonetv.html</sportsdevil>
 <referer>http://www.idimsports.eu/watch/408917/1/watch-xonetv.html</referer>
