@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR lawngreen] [B]ADDON BY SPECIAL ONE[/B] [/COLOR] </title>
+<title>[COLOR red] [B]ADDON BY CAPUCINE[/B] [/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>http://www.stillstoked.com/wp-content/uploads/2015/07/Kokoh-surf-bikini-surfer-girl.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
@@ -16,7 +16,7 @@
 <link>http://ignorame</link>
 <thumbnail>http://4.bp.blogspot.com/_0fDHkkcFi6A/TLY9aK3rjJI/AAAAAAAAAAw/RHJt2nVyLnI/s400/Soccer+Girls+Jerseys+World+Cup+Body+Art+Paintings1.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/portuguese</externallink>
+<externallink></externallink>
 </item>
 
 
@@ -28,7 +28,7 @@
 <link>http://ignorame</link>
 <thumbnail>http://www.safefood.eu/SafeFood/media/SafeFoodLibrary/Documents/Publications/Consumer/Fuel-for-Sport.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/desporto</externallink>
+<externallink></externallink>
 </item>
 
 
@@ -65,7 +65,7 @@
 <link>http://ignorame</link>
 <thumbnail>http://114.imagebam.com/download/wYDEfUIgvDn1f92UVzKVcw/47632/476312766/sopcast.png</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/soapcast</externallink>
+<externallink></externallink>
 </item>
 
 
@@ -116,7 +116,7 @@
  <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
  ]]></listrepeat>
 <expres>Server:"(.*?)" URL="(.*?)"; regex"(.*?)"</expres>
-<page>https://raw.githubusercontent.com/specialoneaddon/tv/master/servidores%20web</page>
+<page></page>
 <agent>Kodi/15.2 (Windows NT 6.1) App_Bitness/32 Version/15.2-Git:20151019-02e7013</agent>
 </regex>
 
@@ -146,7 +146,6 @@
 </item>
 
 
-http://pastebin.com/raw/ymYRYPYQ
 
 
 
@@ -155,7 +154,7 @@ http://pastebin.com/raw/ymYRYPYQ
 <link>http://ignorame</link>
 <thumbnail>http://1.bp.blogspot.com/-j4Mf7-shc5A/UbDH3OHRy0I/AAAAAAAAATk/DZsAKp53gDo/s1600/body-paint-004.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/spain</externallink>
+<externallink></externallink>
 </item>
 
 
@@ -176,7 +175,7 @@ http://pastebin.com/raw/ymYRYPYQ
 <item>  
 <title>[COLOR blue][B]UK CHANNELS[/B][/COLOR]</title>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/uk</externallink>
+<externallink></externallink>
 <thumbnail>https://i.ytimg.com/vi/ldrLZtCgdEI/mqdefault.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
 </item>
@@ -188,16 +187,184 @@ http://pastebin.com/raw/ymYRYPYQ
 <link>http://ignorame</link>
 <thumbnail>http://4.bp.blogspot.com/-Lpkt7nnP97U/TtytYa91zUI/AAAAAAAA1Ws/2ke_NMgoYuE/s1600/france-01-painted-fantasy-football-girl.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
-<externallink>http://www.surfertoday.com/images/stories/surfetiquette.jpg</externallink>
+<externallink></externallink>
 </item>
 
 
 <item>  
 <title>[COLOR blue][B]MUSIC CHANNELS[/B][/COLOR]</title>
 <link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/specialoneaddon/tv/master/musica</externallink>
+<externallink></externallink>
 <thumbnail>https://www.boomfestival.org/boom2016/site/assets/files/1092/bf2014_pierre_ekman-0244.950x450.jpg</thumbnail>
 <fanart>http://www.surfertoday.com/images/stories/surfetiquette.jpg</fanart>
 </item>
+
+
+
+
+<item>
+<title>[COLOR red] [B]MELHORES ADDONS TUGAS EM BAIXO[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+<item>
+<title>[COLOR lawngreen][B]LOGIN PT[/B][/COLOR]</title>
+<link>_</link>
+<thumbnail>http://vitor1983.netai.net/loganaddon.repository/icon.png</thumbnail>
+<externallink>https://www.dropbox.com/s/u12vbu1vps54mak/logan-Menu-Principal.xml?dl=1</externallink>
+</item>
+
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]DIRETO TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://livetvbytvdireto.blogspot.ca/p/color-red-bhttppaypal_28.html</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]MALUCO PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/9fzvl7k4htxdb8x/lista.xml?dl=1</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]PSY TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://psycho.pe.hu/addonPsycho/submenu.txt</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]INSPIRACAO IPTV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/JN1974/enfim/master/Addon_plugin</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]BPARTILHA PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://www.dropbox.com/s/j24dir6nnb9pus9/menus.xml?dl=1</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]TVDEALGUNS PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/W2zn4txu</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]TV SUPER PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://teamtuga4ever.net23.net/TV%20SUPER%20TUGA%20ADD%20ESTRUTURA%201/Menu%20Principal.xml</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item> 
+<title>[COLOR lawngreen][B]TEAMAZUL PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Teamblue1965/MENUS/master/MENU_PRINCIPAL</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR lawngreen][B]MARTINS PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/K2X65rB3</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+<item> 
+<title>[COLOR lawngreen][B]LULAFISH TV PT[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/9vT1sJap</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+
+<item> 
+<title>[COLOR lawngreen][B]TEAM F4M[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/Hd6cxJBU</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+
+<item> 
+<title>[COLOR lawngreen][B]CSOA MOVIES[/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://livetvbytvdireto.blogspot.pt/p/soamoviesmain.html</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR red] [B]MELHORES ADDONS BRASIL EM BAIXO[/B] [/COLOR] </title>
+<link>http://ignorame</link>
+<thumbnail>http://lapoigneedanslangle.com/wp-content/uploads/2013/04/valentino-rossi-2013.jpg</thumbnail>
+<fanart>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</fanart>
+<externallink></externallink>
+</item>
+
+
+
+<item>  
+<title>[COLOR lawngreen][B]IPTV ON BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/7Sjg7MmZ</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+
+<item>  
+<title>[COLOR lawngreen][B]LISTA FUS BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://pastebin.com/raw/TBmjL0u8</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+<item>  
+<title>[COLOR lawngreen][B]LISTA IGOR BRASIL [/B][/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>http://j.mp/igorlista</externallink>
+<thumbnail>http://resources.touropia.com/gfx/d/best-places-to-visit-in-portugal/lisbon.jpg</thumbnail>
+</item>
+
+
+
+
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
 
 
