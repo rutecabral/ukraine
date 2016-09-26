@@ -325,7 +325,6 @@
 </item>
 
 
-
 <item>
 <title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>
 <linkrtmp://$doregex[get-ip]/live/ playpath=benias?id=25817$doregex[pk] conn=S:OK swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf pageUrl=http://www.embedezcast.com/ live=true timeout=10</link>
@@ -531,7 +530,7 @@
 <page>http://ekostreams.co/ch/espnbrasil.php?width=600&height=384</page>
 <referer> </referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://1.bp.blogspot.com/-wMGf_SYMTX8/VW2txlrYpnI/AAAAAAAAG_w/tyQ8jEcQ1Lw/s1600/ESPN.png</thumbnail>
 </item>
 
 
@@ -560,7 +559,7 @@
 <page>http://ekostreams.co/ch/foxsports.php?width=600&height=384</page>
 <referer> </referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Fox_Sports_logo.svg/1280px-Fox_Sports_logo.svg.png</thumbnail>
 </item>
 
 
@@ -579,7 +578,7 @@
 <page>http://ekostreams.co/ch/foxsports2.php?width=600&height=384</page>
 <referer> </referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/7/7e/Fox_Sports_2_logo.png</thumbnail>
 </item>
 
 
@@ -598,7 +597,7 @@
 <page>http://ekostreams.co/ch/eimax.php?width=600&height=384</page>
 <referer> </referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.maxmegatvonlinehd.com/wp-content/uploads/2015/08/esporte-interativo-maxx.jpg</thumbnail>
 </item>
 
 <item>                        
@@ -616,7 +615,7 @@
 <page>http://ekostreams.co/ch/eimax2.php?width=600&height=384</page>
 <referer></referer>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://aovivonatv.com/fotos/57dfa2b1e710ffc4059dd9f7db7f9eb7.jpg</thumbnail>
 </item>
 
 
@@ -642,7 +641,8 @@
 <expres>190px">(.*?)<[\w\W\s]{0,44}182px">(.*?)CET[\w\W\s]{0,109}SPANISH LALIGA[\w\W\s]{0,45}685px">(.*?)<[\w\W\s]{0,80}317px">([0-9]+)</expres>
 <page>http://arenavision.in/agenda</page>
 <Agent>Mozilla</Agent>
-</regex><thumbnail></thumbnail>
+</regex>
+<thumbnail>http://www.robindesbooks.com/wp-content/uploads/2015/03/D1-Liga-BBVA-67.png</thumbnail>
 </item>
 
 
@@ -669,7 +669,8 @@
 <expres>190px">(.*?)<[\w\W\s]{0,44}182px">(.*?)CET[\w\W\s]{0,109}PREMIER LEAGUE[\w\W\s]{0,45}685px">(.*?)<[\w\W\s]{0,75}317px">([0-9]+)</expres>
 <page>http://arenavision.in/agenda</page>
 <Agent>Mozilla</Agent>
-</regex><thumbnail></thumbnail>
+</regex>
+<thumbnail>http://www.leclubdesmanagersdusport.fr/wp-content/uploads/2014/11/Premier-League-2014-2015-Logo1.jpeg</thumbnail>
 </item>
 
 
@@ -741,7 +742,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0</agent>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail></thumbnail>
+<thumbnail>http://www.alsasports.com/wp-content/uploads/2015/10/agenda.png</thumbnail>
 </item> 
 
 
@@ -750,7 +751,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]SKY SPORTS 1.2.3.4.5[/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dSky%20sports%5b%2fCOLOR%5d&amp;url=Sky%20Sports</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>https://www.ecofoot.fr/wp-content/uploads/2015/02/sky-sports-mod%C3%A8le-%C3%A9conomique-premier-league.jpg</thumbnail>
 </item>
 
 
@@ -758,15 +759,15 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]BEIN SPORTS 1.2.3.4.5.6.7.8.9.10 [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dBein%20sports%20wifi%5b%2fCOLOR%5d&amp;url=Bein%20Sports%20WIFI</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.mediasportif.fr/wp-content/uploads/2015/07/beIN-SPORTS-660x330.jpg</thumbnail>
 </item>
 
 
 <item>
-<title>[COLOR white][B]PAKCTV SPORTS/MOTOGP [/COLOR][/B]</title>
+<title>[COLOR white][B]PACKTV SPORTS/MOTOGP [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=52&amp;name=PAKTVSPORTS&amp;url=sss</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.direct.tv/shared/2014/03/DIRECTV-Sports-Pack.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -775,7 +776,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]BOXING & WRESTLING [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dBoxing%20%26%20wrestling%5b%2fCOLOR%5d&amp;url=Boxing%20%26%20Wrestling</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.sincitysportscards.com/images/2014%20wwe%20chrome.jpg</thumbnail>
 </item>
 
 
@@ -783,7 +784,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]UFC [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dUfc%5b%2fCOLOR%5d&amp;url=UFC</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.beyondhe.com.au/media/media/cache/594x334/SH0248_UFC_main.jpg</thumbnail>
 </item>
 
 
@@ -791,7 +792,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]TEN SPORTS [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=71&amp;name=%5bCOLOR%20red%5dTen%20sports%5b%2fCOLOR%5d&amp;url=TEN%20Sports</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://s3.amazonaws.com/zeedigitals/tensports/slideshow/620X250_V2-1459761933.png</thumbnail>
 </item>
 
 
@@ -807,7 +808,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]TSN SPORTS [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=70&amp;name=%5bCOLOR%20red%5dTsn%20sports%5b%2fCOLOR%5d&amp;url=TSN%20Sports</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://s.afl.com.au/staticfile/AFL%20Tenant/AFL/Files/Images/tsnlogo.jpg</thumbnail>
 </item>
 
 
@@ -863,7 +864,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]UNI TV SPORTS [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=53&amp;name=UNITVSPORTS.live&amp;url=sss</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>https://www.unicross.uni-freiburg.de/wp-content/uploads/2015/01/uni_tv_orange_neu.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -912,7 +913,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]SPORTSTEAM [/COLOR][/B]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/stopstream.com.cfg&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.teamsportsinc.us/attachments/Image/team-sports-logo-trans-sm-v2_1.png</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -920,7 +921,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]FOOTBALL AO VIVO [/COLOR][/B]</title>
 <link>http://ignora.me</link>
 <jsonrpc>plugin://plugin.video.ZemTV-shani/?mode=62&amp;name=%5bCOLOR%20red%5dFootball%5b%2fCOLOR%5d&amp;url=Football</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.sportbuzzbusiness.fr/wp-content/uploads/2014/02/tv-sport-events-logo.jpg</thumbnail>
 </item>
 
 
@@ -928,21 +929,21 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <title>[COLOR white][B]LIVE SPORTS[/COLOR][/B]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports.cfg&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.sportbuzzbusiness.fr/wp-content/uploads/2014/02/tv-sport-events-logo.jpg</thumbnail>
 </item>
 
 <item>
 <title>[COLOR white][B]TV SPORTS[/COLOR][/B]</title>
 <link>ignorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=url=tv.cfg&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://www.sportbuzzbusiness.fr/wp-content/uploads/2014/02/tv-sport-events-logo.jpg</thumbnail>
 </item>
 
 <item>
 <title>[COLOR white][B]EVENTOS MOTORIZADOS [/COLOR][/B]</title>
 <link>egnorme</link>
 <jsonrpc>plugin://plugin.video.SportsDevil/?item=count.tmp%3d1%26title.tmp%3dRacing%26ticon.tmp%3dhttp%253A%252F%252Fcdn.livetvcdn.net%252Fimg%252Fsport%252F7.gif%26url%3dhttp%253A%252F%252Flivetv101.net%252Fen%252Fallupcomingsports%252F7%252F%26cfg%3dlivetv.ru.videos.cfg%2540CATEGORY%25407%26definedIn%3dlivesports%252Flivetv.ru.cfg%26director%3dLiveTV.ru%26id.tmp%3d7%26referer%3dhttp%253A%252F%252Flivetv101.net%252Fen%252Fallupcoming%26genre%3dLive%2bSports%26title%3dRacing%2b%25281%2529%26icon.tmp%3dC%253A%255CUsers%255COwner%255CAppData%255CRoaming%255CKodi%255Caddons%255Cplugin.video.SportsDevil%255Cresources%255Cimages%255Csports%252FRacing.png%26type%3drss%26icon%3dC%253A%255CUsers%255COwner%255CAppData%255CRoaming%255CKodi%255Caddons%255Cplugin.video.SportsDevil%255Cresources%255Cimages%255Csports%252FRacing.png&amp;mode=1</jsonrpc>
-<thumbnail></thumbnail>
+<thumbnail>http://images.tenplay.com.au/~/media/Sport/Motorsport/Motorsport_Logo_500x281.jpg</thumbnail>
 <fanart></fanart>
 </item>
 
@@ -1044,7 +1045,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 <item>
 <title>[COLOR white][B]REAL MADRID [/COLOR][/B]</title>
 <link>http://rmtvlive-lh.akamaihd.net/i/rmtv_1@154306/index_1000_av-p.m3u8?</link>
-<thumbnail></thumbnail>
+<thumbnail>https://yt3.ggpht.com/-zvPqz5WM4EE/AAAAAAAAAAI/AAAAAAAAAAA/fh1Q0Ycpv2M/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
 </item>
 
 
