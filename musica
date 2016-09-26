@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>RETV JAMAICA</title>
+<link>http://univ-i.akamaihd.net/hls/live/222631/group1/playlist.m3u8</link>
+<thumbnail>http://realjamaicantelevision.com/sites/default/files/retv_logo.png</thumbnail>
+</item>
+<item>
+<title>ROUGE TV HQ</title>
+<link>http://wownet.ro/str/0241.m3u8|X-Forwarded-For=81.17.18.50&User-Agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0</link>
+<thumbnail>http://haitiantvchannel.com/wp-content/uploads/2013/08/rouge-tv-movie.jpg</thumbnail>
+</item>
+<item>
+<title>Deluxe Music</title>
+<link>http://wownet.ro/str/0065.m3u8|X-Forwarded-For=81.17.18.50</link>
+<thumbnail>http://www.deluxemusic.tv/fileadmin/_processed_/csm_Deluxe_top_25_c8ad3cf202.png</thumbnail>
+</item>
+<item>
+<title>Kiss Tv Music</title>
+<link>rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live</link>
+<thumbnail>http://www.telefivegb.com/wp-content/uploads/2013/05/kisstv.jpg</thumbnail>
+</item>
+<item>
+<title>VEVO ROCK TV</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/05/prog_index.m3u8</link>
+<thumbnail>http://hdtoptv.com/wp-content/uploads/vevorock1.png</thumbnail>
+</item>
+<item>
+<title>VEVO MUSIC TV</title>
+<link>http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8</link>
+<thumbnail>http://routenote.com/blog/wp-content/uploads/2010/09/vevo.jpg</thumbnail>
+</item>
+<item>
+<title>DJING IBIZA</title>
+<link>http://www.djing.com/tv/d-05.m3u8</link>
+<thumbnail>http://www.tvtuga.com/wp-content/uploads/2015/12/djing-ibiza-tv.jpg</thumbnail>
+</item>
+<item>
+<title>DJING ANIMATION</title>
+<link>http://www.djing.com/tv/a-05.m3u8</link>
+<thumbnail>http://www.primetvweb.com/wp-content/uploads/2016/01/Djing-Animation-TV.png</thumbnail>
+</item>
+<item>
+<title>DJING CLASSIC</title>
+<link>http://www.djing.com/tv/i-05.m3u8</link>
+<thumbnail>http://www.streamytv.net/wp-content/uploads/2015/11/Djing-Classic.jpg</thumbnail>
+</item>
+<item>
+<title>JUCE TV</title>
+<link>http://109.68.190.192:1935/jucetv/ngrp:jucetv.stream-adaptive/playlist.m3u8</link>
+<thumbnail>http://www.accessfree.tv/images/access%20juce%20tv.jpg</thumbnail>
+</item>
+<item>
+<title>RADIO MONTE CARLO TV</title>
+<link>rtmp://fms.105.net:1935/live/rmc1</link>
+<thumbnail>http://rmc.bfmtv.com/ressources/img/mediaplayer/player-rmcdecouverte_fin.jpg</thumbnail>
+</item>
+<item>
+<title>CAPITAL TV</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/globalradio01_delivery@156521/index_656_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/3/32/Capital_TV_logo.png</thumbnail>
+</item>
+<item>
+<title>HEART TV</title>
+<link>http://ooyalahd2-f.akamaihd.net/i/globalradio02_delivery@156522/index_656_av-p.m3u8?sd=10&rebase=on</link>
+<thumbnail>http://www.jumpdesign.co.uk/wp-content/uploads/2014/09/Heart-TV-N-031-600x338.jpg</thumbnail>
+</item>
+<item>
+<title>VIRGIN TV</title>
+<link>rtmp://fms.105.net:1935/live/virgin2</link>
+<thumbnail>http://about.virginmedia.com/images/press_releases/VTVA%20logo_1.png</thumbnail>
+</item>
+<item>
+<title>AFRICA MUSICA</title>
+<link>http://176.9.55.94:1935/edge/43_135_live/Manifest.m3u8</link>
+<thumbnail>http://djstev.wifeo.com/images/1/1jp/1.jpg</thumbnail>
+</item>
+<item>
+<title>UNDERGROUND</title>
+<link>http://www.djing.com/tv/underground.m3u8</link>
+<thumbnail>http://tlvnights.com/wp-content/uploads/2015/08/063-underground_roundel_sign_at_epping.jpg</thumbnail>
+</item>
+<item>
+<title>DANCEFLOOR</title>
+<link>http://www.djing.com/tv/dancefloor.m3u8</link>
+<thumbnail>http://insidedancefloor-lawebradio.e-monsite.com/medias/images/dancefloor.jpg</thumbnail>
+</item>
+<item>
+<title>DREAM TV</title>
+<link>http://212.224.108.80/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8</link>
+<thumbnail>https://static.simpsonswiki.com/images/thumb/d/d5/Dream_TV.png/250px-Dream_TV.png</thumbnail>
+</item>
+<item>
+<title>CLUBLAND</title>
+<link>http://rrr.sz.xlcdn.com/?account=AATW&file=clublandtv&type=live&service=wowza&protocol=http&output=playlist.m3u8</link>
+<thumbnail>http://www.enginecreative.co.uk/uploads/assets/content/image/CC_int1.jpg</thumbnail>
+</item>
+<item>
+<title>MI MUSICA</title>
+<link>http://hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/MMHD/tu1_1.m3u8?</link>
+<thumbnail>http://g01.a.alicdn.com/kf/HTB18FuIJXXXXXaAXXXXq6xXFXXXl/7021E-MI-music-centre-audio-2-0-active-subwoofer-combination-wooden-card-mobile-phone-TV-computer.jpg</thumbnail>
+</item>
+<item>
+<title>REAL HIP HOP TV</title>
+<link>http://rhn.tulix.tv/live/Stream1/playlist.m3u8</link>
+<thumbnail>http://2dopeboyz.files.wordpress.com/2008/03/20080327-lgnd.jpg</thumbnail>
+</item>
+
+
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
+<title></title>
+<link></link>
+<thumbnail></thumbnail>
+</item>
+<item>
