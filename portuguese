@@ -91,18 +91,49 @@
 <thumbnail>http://www.thelogodb.com/images/media/logo/wtpyqt1436899156.png</thumbnail>
 </item>
 
-
+<item>
+<title>A BOLA TV</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex><name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.liveflashpublisher.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres><page>http://www.liveflashplayer.net/membedplayer/yameu/1/599/399</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.liveflashplayer.net</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/yuvqvt1437951057.png</thumbnail>
+</regex>
+<info>canal de noticias de desporto</info>
+</item>
 
 <item>
 <title>A BOLA TV</title>
-<sportsdevil>http://www.desportonline.net/index.php?canal=abolatv</sportsdevil>
+<sportsdevilhttp://www.desportonline.net/index.php?canal=abolatv</sportsdevil>
 <referer>http://ucaster.eu/</referer>
 <thumbnail>http://www.thelogodb.com/images/media/logo/yuvqvt1437951057.png</thumbnail>
 </item>
 
+
+</item>
 <item>
 <title>CMTV</title>
-<sportsdevil>http://www.estadiofutebol.com/gratis/cmtv</sportsdevil>
+<link>$doregex[getLink]|User-Agent=iPad</link>
+<regex>
+<name>getLink</name>
+<expres>file: '(.*?)',</expres>
+<page>http://pxstream.tv/embedrouter.php?file=cmcm2&amp;width=640&amp;height=450&amp;jwplayer=flash</page>
+<referer>http://www.meocanaltv.com/canais.php?stream=CMTV</referer>
+<cookieJar></cookieJar>
+<agent>iPad</agent>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/cmtv.png</thumbnail>
+</item>
+
+<item>
+<title>CMTV</title>
+<sportsdevilhttp://www.estadiofutebol.com/gratis/cmtv</sportsdevil>
 <referer>http://www.liveflashplayer.net/</referer>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/cmtv.png</thumbnail>
 </item>
@@ -127,7 +158,7 @@
 </item>
 <item>
 <title>PORTO CANAL</title>
-<link>rtmp://$doregex[get-ip]/live playpath=portocanalv?id=86583&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/portocanalv/1/650/500</link>
+<linkrtmp://$doregex[get-ip]/live playpath=portocanalv?id=86583&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/portocanalv/1/650/500</link>
 <regex>
 <name>get-ip</name>
 <expres>redirect=(.*)</expres>
@@ -140,6 +171,13 @@
 <referer>http://www.embeducaster.com/</referer>
 <thumbnail>http://www.thelogodb.com/images/media/logo/yywyyt1433343546.png</thumbnail>
 </regex>
+</item>
+
+
+<item>
+<title>PORTO CANAL</title>
+<link>http://213.13.26.11:1935/live/portocanal/JACKSPARROW.m3u8</link>
+<thumbnail>http://www.thelogodb.com/images/media/logo/yywyyt1433343546.png</thumbnail>
 </item>
 
 
