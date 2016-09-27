@@ -325,6 +325,21 @@
 </item>
 
 
+<item>                        
+<title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>                     
+<sportsdevil>http://www.europeu2016.net/index.php?canal=benficatv</sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
+</item>
+
+<item>
+<title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>
+<sportsdevil>http://www.sporttvsonline.com/index.php?canal=benficatv-2</sportsdevil>
+<referer>http://www.sporttvsonline.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
+</item>
+
+
 <item>
 <title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>
 <linkrtmp://$doregex[get-ip]/live/ playpath=benias?id=25817$doregex[pk] conn=S:OK swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf pageUrl=http://www.embedezcast.com/ live=true timeout=10</link>
@@ -362,28 +377,18 @@
 
 <item>                        
 <title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>  
-<link>rtmp://31.220.40.62/privatestream/ app=privatestream/ playpath=gergtrg?keys=bgTVSHj_R7k44rqRvZCNUQ&keyt=1471708579 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=gergtrg</link>
+<linkrtmp://31.220.40.62/privatestream/ app=privatestream/ playpath=gergtrg?keys=bgTVSHj_R7k44rqRvZCNUQ&keyt=1471708579 swfUrl=http://privatestream.tv/js/jwplayer.flash.swf flashVer=WIN\2020,0,0,267 swfVfy=1 live=1 timeout=13 pageUrl=http://privatestream.tv/player?streamname=gergtrg</link>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>  
 <fanart></fanart>
 </item>
 
-<item>                        
-<title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>                     
-<sportsdevil>http://www.europeu2016.net/index.php?canal=benficatv</sportsdevil>
-<referer>http://www.europeu2016.com</referer>
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
-</item>
+
+
+
 
 <item>
 <title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>
-<sportsdevil>http://www.sporttvsonline.com/index.php?canal=benficatv-2</sportsdevil>
-<referer>http://www.sporttvsonline.com</referer>
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/btv1.png</thumbnail>
-</item>
-
-<item>
-<title>[COLOR white][B]BTV 1 [/COLOR][/B]</title>
-<<link>http://$doregex[ip]$doregex[m3u8]</link>
+<<linkhttp://$doregex[ip]$doregex[m3u8]</link>
 <regex>
 <name>ip</name>
 <expres>redirect=(.*)</expres>
