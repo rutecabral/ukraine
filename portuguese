@@ -841,7 +841,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 
 <item>                        
-<title>CANAL HOT</title>                                              
+<title>FOX</title>                                              
 <sportsdevil>http://www.europeu2016.net/index.php?canal=fox</sportsdevil>
 <referer>http://www.europeu2016.com</referer>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/hot.png</thumbnail>
@@ -850,7 +850,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 <item>                        
 <title>FOX</title>  
-<link>http://$doregex[ip]$doregex[m3u8]</link>
+<linkhttp://$doregex[ip]$doregex[m3u8]</link>
 <regex>
 <name>ip</name>
 <expres>redirect=(.*)</expres>
