@@ -838,6 +838,16 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <thumbnail>http://s20.postimg.org/qcn42rn0d/AXN_White.png</thumbnail>
 </item>
 
+
+
+<item>                        
+<title>CANAL HOT</title>                                              
+<sportsdevil>http://www.europeu2016.net/index.php?canal=fox</sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/hot.png</thumbnail>
+</item>
+
+
 <item>                        
 <title>FOX</title>  
 <link>http://$doregex[ip]$doregex[m3u8]</link>
@@ -856,7 +866,6 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>                        
 </item>
 
-rtmp://146.185.16.58/live<playpath>foxcrl?id=24274&pk=debc788ed6400eca6f2f0ee32adca0fcfa2b25215951ac1b4868251141aec325 <swfUrl>http://www.embedezcast.com/static/scripts/fplayer.swf <pageUrl>http://www.embedezcast.com/embedplayer/foxcrl/1/599/399
 
 
 <item>
