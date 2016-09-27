@@ -28,7 +28,7 @@
 
 <item>
 <title>SIC</title>
-<sportsdevil>http://www.estadiofutebol.com/gratis/sic</sportsdevil>
+<sportsdevilhttp://www.estadiofutebol.com/gratis/sic</sportsdevil>
 <referer>http://ucaster.eu/</referer>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/sic.png</thumbnail>
 </item>
@@ -37,6 +37,24 @@
 <title>SIC</title>
 <sportsdevilhttp://mytvfree2.me/sic-pt-online</sportsdevil>
 <referer>http://liveflash.tv/</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/sic.png</thumbnail>
+</item>
+
+
+<item>
+<title>SIC</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.liveflashpublisher.com:1935/loadbalancer</page></regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.liveflashplayer.net/membedplayer/sic77888/1/600/450</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.liveflashplayer.net</referer>
+<info>A SIC e um canal generalista com programas de informacao, entretenimento, documentarios e programas de ficcao, falados em Portugues.</info>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/sic.png</thumbnail>
 </item>
 
@@ -820,11 +838,30 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <thumbnail>http://s20.postimg.org/qcn42rn0d/AXN_White.png</thumbnail>
 </item>
 
+<item>                        
+<title>FOX</title>  
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.pubucaster.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.embedezcast.com/embedplayer/foxcrl/1/599/399</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.embedezcast.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/discoverychannel.png</thumbnail>                      
+</regex>                        
+</item>
+
+rtmp://146.185.16.58/live<playpath>foxcrl?id=24274&pk=debc788ed6400eca6f2f0ee32adca0fcfa2b25215951ac1b4868251141aec325 <swfUrl>http://www.embedezcast.com/static/scripts/fplayer.swf <pageUrl>http://www.embedezcast.com/embedplayer/foxcrl/1/599/399
 
 
 <item>
 <title>FOX</title>
-<link>rtmp://$doregex[get-ip]/live/ playpath=foxcrl?id=24274$doregex[pk] conn=S:OK swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf pageUrl=http://www.embedezcast.com/ live=true timeout=10</link>
+<linkrtmp://$doregex[get-ip]/live/ playpath=foxcrl?id=24274$doregex[pk] conn=S:OK swfUrl=http://www.embedezcast.com/static/scripts/fplayer.swf pageUrl=http://www.embedezcast.com/ live=true timeout=10</link>
 <regex>
 <name>get-ip</name>
 <expres>redirect=(.*)</expres>
@@ -981,7 +1018,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 <item>
 <title>DISCOVERY</title>
-<link>rtmp://$doregex[get-ip]/live playpath=discoveryx?id=84775&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/discoveryx/1/650/500</link>
+<linkrtmp://$doregex[get-ip]/live playpath=discoveryx?id=84775&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/discoveryx/1/650/500</link>
 <regex>
 <name>get-ip</name>
 <expres>redirect=(.*)</expres>
@@ -996,6 +1033,27 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>
 </item>
 
+<item>                        
+<title>DISCOVERY CHANNEL</title>  
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.pubucaster.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.embeducaster.com/membedplayer/discoveryx/1/650/500</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.embeducaster.com/</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/discoverychannel.png</thumbnail>                      
+</regex>                        
+</item>
+
+
+
+
 <item>
 <title>DISCOVERY HD</title>
 <linkplugin://plugin.video.f4mTester/?url=http://www.x-media.tv:58080/live/MasterDiggi/satlover.com/466.ts&amp;streamtype=TSDOWNLOADER|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25</link>
@@ -1004,7 +1062,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 <item>
 <title>HISTORIA</title>
-<link>rtmp://$doregex[get-ip]/stream playpath=historiab?id=21918$doregex[pk] conn=S:OK swfUrl=http://www.liveflashplayer.net/resources/scripts/fplayer.swf pageUrl=http://www.liveflashplayer.net/ live=true timeout=10</link>
+<linkrtmp://$doregex[get-ip]/stream playpath=historiab?id=21918$doregex[pk] conn=S:OK swfUrl=http://www.liveflashplayer.net/resources/scripts/fplayer.swf pageUrl=http://www.liveflashplayer.net/ live=true timeout=10</link>
 <regex>
 <name>get-ip</name>
 <expres>redirect=(.*)</expres>
@@ -1019,7 +1077,23 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>
 </item>
 
-
+<item>
+<title>HISTORIA</title>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.liveflashpublisher.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.liveflashplayer.net/membedplayer/historiab/1/650/500</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.liveflashplayer.net</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/wxyrrw1433944455.png</thumbnail>
+</regex>
+</item>
 
 <item>
 <title>NAT GEO</title>
@@ -1059,9 +1133,30 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <thumbnail>http://www.thelogodb.com/images/media/logo/uspyqq1436893244.png</thumbnail>
 </item>
 
+
 <item>
 <title>ODISSEIA</title>
-<link>rtmp://$doregex[get-ip]/live playpath=odisseiax?id=84765&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/odisseiax/1/650/500</link>
+<link>http://$doregex[ip]$doregex[m3u8]</link>
+<regex>
+<name>ip</name>
+<expres>redirect=(.*)</expres>
+<page>http://www.pubucaster.com:1935/loadbalancer</page>
+</regex>
+<regex>
+<name>m3u8</name>
+<expres>ea \+ "(.*?)"</expres>
+<page>http://www.embeducaster.com/membedplayer/odisseiax/1/650/500</page>
+<agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent>
+<referer>http://www.embeducaster.com/</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/uspyqq1436893244.png</thumbnail>
+</regex>
+</item>
+
+
+
+<item>
+<title>ODISSEIA</title>
+<linkrtmp://$doregex[get-ip]/live playpath=odisseiax?id=84765&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/odisseiax/1/650/500</link>
 <regex>
 <name>get-ip</name>
 <expres>redirect=(.*)</expres>
@@ -1078,10 +1173,8 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 
 <item>                        
-<title>CANAL HOT</title>                      
-<fanart></fanart>                        
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/hot.png</thumbnail>                      
+<title>CANAL HOT</title>                                              
 <sportsdevil>http://www.europeu2016.net/index.php?canal=hot</sportsdevil>
-<referer>http://www.europeu2016.com
-</referer>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/hot.png</thumbnail>
 </item>
