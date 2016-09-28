@@ -1177,3 +1177,13 @@
 </regex>
 <thumbnail>https://upload.wikimedia.org/wikipedia/en/d/de/Former_MUTV_logo.png</thumbnail>
 </item>
+
+
+
+<item>		
+<title>teste</title>
+<link>http://fui.me</link>
+<jsonrpc>plugin://plugin.video.Pirata-TV</jsonrpc>
+<thumbnail>http://koditips.com/wp-content/uploads/xplugin.video_.castaway.png.pagespeed.ic_.WvKw93vauz.png</thumbnail>
+<fanart></fanart>
+</item>
