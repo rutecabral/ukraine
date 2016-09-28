@@ -33,6 +33,14 @@
 
 
 <item>
+<title>[COLOR white][B]CASTAWAY AGENDA SPORTS[/COLOR][/B]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.castaway?mode=p2p_corner&mode=open_p2p_sport&site=arenavision</jsonrpc>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/600x315/f9/8b/d0/f98bd06d37b6db194dda2acecd1aa502.jpg</thumbnail>
+</item>
+
+
+<item>
 <title>[COLOR blue] [B]ARENAVISION AGENDA / SCHEDULE [/B] [/COLOR] </title>
 <link>$doregex[makelist]</link>
 <regex>
