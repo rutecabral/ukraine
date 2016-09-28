@@ -1180,9 +1180,9 @@
 
 
 <item>		
-<title>teste101</title>
+<title>teste1</title>
 <link>http://fui.me</link>
-<jsonrpc>plugin://plugin.video.exodus</jsonrpc>
+<jsonrpc>plugin://plugin.video.youtube</jsonrpc>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
