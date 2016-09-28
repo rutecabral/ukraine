@@ -679,6 +679,14 @@
 </item>
 
 
+<item>
+<title>[COLOR white][B]CASTAWAY AGENDA SPORTS[/COLOR][/B][/COLOR]</title>
+<link>_</link>
+<jsonrpc>plugin://plugin.video.castaway?mode=p2p_corner&mode=open_p2p_sport&site=arenavision</jsonrpc>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/600x315/f9/8b/d0/f98bd06d37b6db194dda2acecd1aa502.jpg</thumbnail>
+</item>
+
+
 
 <item>
 <title>[COLOR white][B]HD SPORTS AGENDA [/COLOR][/B]</title>
@@ -860,7 +868,7 @@ def GetLSProData(page_data,Cookie_Jar,m, param=''):
 
 <item>
 <title>[COLOR white][B]ARENA VISION [/COLOR][/B]</title>
-<link>ignorme</link>
+<linkignorme</link>
 <jsonrpc>plugin://plugin.video.p2psport/?mode=av</jsonrpc>
 <thumbnail>http://kodi.altervista.org/wp-content/uploads/2015/07/arenavision.jpg</thumbnail>
 </item>
