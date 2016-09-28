@@ -1179,5 +1179,11 @@
 </item>
 
 
-
+<item>		
+<title>SPORTSDEVIL</title>
+<link>http://fui.me</link>
+<jsonrpc>plugin://plugin.video.CasMart1.1</jsonrpc>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
 
