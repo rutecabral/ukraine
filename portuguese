@@ -1216,6 +1216,17 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 
 
+
+<item>                        
+<title>ODISSEIA</title>                                              
+<sportsdevil>http://www.europeu2016.net/index.php?canal=odisseia</sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/uspyqq1436893244.png</thumbnail>
+</item>
+
+
+
+
 <item>
 <title>ODISSEIA</title>
 <linkrtmp://$doregex[get-ip]/live playpath=odisseiax?id=84765&amp;pk=$doregex[get-pk] swfVfy=1 timeout=10 conn=S:OK live=1 swfUrl=http://www.embeducaster.com/static/scripts/fplayer.swf flashver=WIN\2019,0,0,226 pageUrl=http://www.embeducaster.com/embedplayer/odisseiax/1/650/500</link>
