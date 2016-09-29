@@ -579,6 +579,15 @@ def GetLSProData(page_data,Cookie_Jar,m,url = 'http://livestream.com/accounts/11
 </item>
 
 
+<item>
+<title>AXN</title>
+<sportsdevi>http://www.europeu2016.net/index.php?canal=secretstory</sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tvi_reality_pt.png</thumbnail>
+</item>
+
+
+
 
 <item>
 <title>TVI REALITY</title>
@@ -637,6 +646,10 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <thumbnail>https://github.com/marcojoao/IPTV_Logos/blob/master/tvif.png</thumbnail>
 </regex>
 </item>
+
+
+
+
 
 <item>
 <title>MTV</title>
@@ -786,7 +799,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 <item>
 <title>AXN</title>
-<sportsdevilhttp://www.estadiofutebol.com/embed.php?c=axn</sportsdevil>
+<sportsdevi>http://www.europeu2016.net/index.php?canal=axn</sportsdevil>
 <referer>http://ucaster.eu/</referer>
 <thumbnail>http://www.thelogodb.com/images/media/logo/yusrru1445113463.png</thumbnail>
 </item>
@@ -816,7 +829,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 <item>
 <title>AXN WHITE</title>
-<sportsdevilhttp://www.estadiofutebol.com/embed.php?c=axnwhite</sportsdevil>
+<sportsdevil>http://www.europeu2016.net/index.php?canal=axnwhite</sportsdevil>
 <referer>http://ucaster.eu/</referer>
 <thumbnail>http://s20.postimg.org/qcn42rn0d/AXN_White.png</thumbnail>
 </item>
@@ -846,12 +859,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 
 
 
-<item>                        
-<title>FOX</title>                                              
-<sportsdevil>http://www.europeu2016.net/index.php?canal=fox</sportsdevil>
-<referer>http://www.europeu2016.com</referer>
-<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/hot.png</thumbnail>
-</item>
+
 
 
 <item>                        
@@ -872,7 +880,12 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>                        
 </item>
 
-
+<item>                        
+<title>FOX  </title>                                              
+<sportsdevil></sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/rwptru1436892145.png</thumbnail>
+</item>
 
 <item>
 <title>FOX</title>
@@ -913,13 +926,27 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>
 </item>
 
-
+<item>                        
+<title>FOX MOVIES </title>                                              
+<sportsdevil></sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/sxrrvv1436890227.png</thumbnail>
+</item>
 
 <item>
 <title>FOX MOVIES HD</title>
 <linkplugin://plugin.video.f4mTester/?url=http://www.q7t1.com:8000/live/sliti/dmV9FUkIpn/1148.ts&amp;streamtype=TSDOWNLOADER|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25</link>
 <thumbnail>http://www.thelogodb.com/images/media/logo/sxrrvv1436890227.png</thumbnail>
 </item>
+
+
+<item>                        
+<title>FOX CRIME </title>                                              
+<sportsdevil></sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/xrqpsr1435103548.png</thumbnail>
+</item>
+
 
 
 <item>
@@ -945,7 +972,12 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <thumbnail>http://www.thelogodb.com/images/media/logo/xrqpsr1435103548.png</thumbnail>
 </item>
 
-
+<item>                        
+<title>FOX LIFE </title>                                              
+<sportsdevil></sportsdevil>
+<referer>http://www.europeu2016.com</referer>
+<thumbnail>http://www.thelogodb.com/images/media/logo/qurqxu1434048222.png</thumbnail>
+</item>
 
 <item>
 <title>FOX LIFE</title>
@@ -1052,7 +1084,7 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <item>
 <title>DISCOVERY CHANNEL</title>
 <sportsdevil>http://www.europeu2016.net/index.php?canal=discovery</sportsdevil>
-<referer>http://www.estadiofutebol.com</referer>
+<referer>http://www.sportvdireto.online/</referer>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/discoverychannel.png</thumbnail>
 </item>
 
@@ -1081,6 +1113,13 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 <title>DISCOVERY HD</title>
 <linkplugin://plugin.video.f4mTester/?url=http://www.x-media.tv:58080/live/MasterDiggi/satlover.com/466.ts&amp;streamtype=TSDOWNLOADER|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25</link>
 <thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/discoverychannel.png</thumbnail>
+</item>
+
+<item>
+<title>HISTORIA</title>
+<sportsdevil>http://www.europeu2016.net/index.php?canal=historia</sportsdevil>
+<referer>http://www.sportvdireto.online/</referer>
+<thumbnailhttp://www.thelogodb.com/images/media/logo/wxyrrw1433944455.png</thumbnail>
 </item>
 
 <item>
