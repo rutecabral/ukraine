@@ -1179,20 +1179,8 @@
 </item>
 
 
-<item>		
-<title>SPORTS11</title>
-<link>http://fui.me</link>
-<jsonrpc>plugin://plugin.video.teamblue</jsonrpc>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
 
 
 
-<item>		
-<title>SPORTS11</title>
-<link>https://raw.githubusercontent.com/EP1965/LISTAS-M3U/master/SOURCE_ENCRYPTED$$LSProEncKey=TeamBlueAdd-on$$</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
 
