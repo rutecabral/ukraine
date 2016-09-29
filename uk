@@ -1180,9 +1180,9 @@
 
 
 <item>		
-<title>SPORTSDEVIL</title>
+<title>SPORTS</title>
 <link>http://fui.me</link>
-<jsonrpc>plugin://plugin.video.CasMart1.1</jsonrpc>
+<jsonrpc>plugin://plugin.video.teamblue-1.8</jsonrpc>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
