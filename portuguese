@@ -1048,6 +1048,14 @@ pageUrl=http://www.mipsplayer.com swfVfy=1 timeout=13 live=1 conn=S:OK</link><re
 </regex>
 </item>
 
+
+<item>
+<title>DISCOVERY CHANNEL</title>
+<sportsdevil>http://www.europeu2016.net/index.php?canal=discovery</sportsdevil>
+<referer>http://www.estadiofutebol.com</referer>
+<thumbnail>https://raw.githubusercontent.com/marcojoao/IPTV_Logos/master/discoverychannel.png</thumbnail>
+</item>
+
 <item>                        
 <title>DISCOVERY CHANNEL</title>  
 <link>http://$doregex[ip]$doregex[m3u8]</link>
